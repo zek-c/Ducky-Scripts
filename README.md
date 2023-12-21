@@ -21,6 +21,6 @@ Then, copy it to the root of the drive. (If on linux, it should be `/dev/sdX` wh
 Convert the .txt file to `payload.dd` 
 Then, copy it to the root of the drive. (If on linux, it should be `/dev/sdX` where `X` is the USB ducky's drive letter, and no following subdirectories, if on windows, it should be `${Drive Letter}:/ and no subdirectories)
 </details>
-- - - -
+<br>
 When ready, insert the drive into the targets computer. Make sure the operating system matches the scripts' target, or else unexpected things could happen.
 Refer to the proper guides to plug in a USB in programming mode, to make sure it doesn't execute on a computer you don't want it to.
